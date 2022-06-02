@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 945px;
+  margin: 0px auto;
+}
+
+header {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #070707;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.black {
+  color: #070707;
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 63px;
+  text-decoration: none;
+}
+
+.grey {
+  color: #828282;
+  display: inline-block;
+  margin: 0 40px 63px 0;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 47.3392px;
+  line-height: 64px;
+  color: #070707;
+  text-align: left;
+}
+
+#about_me {
+  padding: 100px 0;
+  margin: 100px 0;
+  background: #F6F6F6;
+
+
+}
+
+.about-me {
+  margin: 0 auto;
+  background: #F6F6F6;
+  max-width: 480px;
+}
+
+.tittle-about-me {
+  
+
+  margin: 0 0 28px;
+}
+
+.tittle h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #070707;
+}
+
+.text-about-me {
+  color: #070707;
+}
+
+.p1 {
+  margin-bottom: 50px;
+}
+
+.tittle-skills {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #070707;
+  margin: 0 0 40px;
+
+
+}
+
+#skills ul {
+  list-style: none;
+
+}
+
+#skills li {
+  display: inline-block;
+  max-width: 165px;
+  text-align: center;
+  margin: 0 45px;
+}
+
+#skills img {
+  max-height: 91px;
+
+
+
+}
+
+#skills .text-skills {
+  font-family: 'Gilroy-Bold';
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 24px 0px 60px 0px;
+  color: #828282;
+
+}
+
+.stars {
+  margin: 0 0 84px;
+}
+
+
+
+#portfolio {
+  padding: 119px 0;
+  background: #F6F6F6;
+
+}
+
+.tittle-portfolio {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #070707;
+}
+
+
+#portfolio img {
+  padding: 68px 0px 15px;
+}
+
+#contacts {
+  margin: 100px 0 159px;
+}
+
+#contacts h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  margin: 0 0 21px;
+  color: #070707;
+}
+
+.sent-message {
+  font-weight: 700;
+  padding: 9px 0.25px;
+  background-color: black;
+  max-width: 180px;
+  margin: 78PX auto 0;
+  border-radius: 10px;
+
+
+}
+
+#contacts .img {
+  max-height: 40px;
+  margin: 31px 60px 0;
+}
+
+#contacts img {
+  margin-right: 69px;
+  margin-top: 31px;
+}
+
+.sent-message-color {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 19px;
+  margin: 44px 0 0;
+  color: #828282;
+}
