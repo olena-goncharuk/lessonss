@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+
+
+}
+
+.container {
+  max-width: 534px;
+  margin: 0px auto;
+}
+
+header {
+  background-color: #4A4F56;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #FF8984;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FF8984;
+  display: flex;
+  align-items: center;
+
+}

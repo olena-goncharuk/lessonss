@@ -6,7 +6,7 @@
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 header {
@@ -14,7 +14,12 @@ header {
   font-style: normal;
   font-size: 16px;
   color: #2F281E;
+  margin-top: 26px;
 
+}
+
+.header.content {
+  margin: 0px 190px;
 }
 
 body {
@@ -27,13 +32,13 @@ body {
 
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  display: inline-block;
+
+
+
+.logo {
+  max-width: 200px;
+
 }
-
-
 
 ul {
   list-style: none;
@@ -44,17 +49,17 @@ li {
 }
 
 
-.menu-items {
-  margin: ;
-}
-
 .menu-link {
   color: #070707;
   display: inline-block;
-  margin: 20px;
+  margin-right: 20px;
   text-decoration: none;
   font-weight: 400;
   line-height: 28px;
+}
+
+.orange {
+  color: #FF9900;
 }
 
 .header-button-white {
@@ -70,6 +75,8 @@ li {
   max-width: 110px;
   border: 1px solid #BCD0E5;
   border-radius: 4px;
+  margin-right: 30px;
+
 }
 
 .header-button-white:hover {
@@ -86,6 +93,7 @@ li {
   text-decoration: none;
   color: #FFFFFF;
   padding: 13px 26px;
+
   max-width: 110px;
   border-radius: 4px;
   background-color: #FF9900;
@@ -97,18 +105,55 @@ li {
   ;
 }
 
+.chapter1 {
+  margin: 70px 0 9px 0;
+}
+
+.content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left {
+  max-width: 500px;
+}
+
 .tittle {
   font-weight: 700;
   font-weight: 700;
   font-size: 44px;
   line-height: 54px;
   color: #2F281E;
+  display: inline-block;
 
 }
 
-text-chapter {
+.text-chapter1 {
+  display: inline-block;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #544837;
+  margin-bottom: 20px;
+}
+
+.image1-chapter1 {
+  display: inline-block;
+  max-width: 644px;
+}
+
+.button1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #FF9900;
+  border-radius: 4px;
+  padding: 13px 44px;
+  text-decoration: none;
+
+
+
 }
