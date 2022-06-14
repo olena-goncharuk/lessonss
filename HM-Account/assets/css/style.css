@@ -1,0 +1,42 @@
+*,
+::before
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 500px;
+  margin: o auto;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fist-name input {
+  opacity: 0;
+  position: absolute;
+  
+}
+
+/* input[type="text"] { 
+ display: none; 
+} */
+
+.first-name input+label span {
+width: 245px;
+height: 38px;
+border: 1px;
+border-color: black;
+margin-right: 16px;
+display: inline-block;
+text-align: center;
+
+}
+.country_city {
+  display: flex;
+  justify-content: space-between;
+
+}

@@ -63,7 +63,7 @@ main {
   position: absolute;
 }
 
-input label:first-child {}
+
 
 .list .point {
   background: #88839E;
@@ -124,7 +124,3 @@ input:checked+label span:nth-child(3) {
   text-align: center;
 }
 
-/* .bonappetit::after {
-  content: ":)";
-  color: #FF8984;
-} */
