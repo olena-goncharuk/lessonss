@@ -5,7 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Web-form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -15,43 +20,42 @@
     <section>
       <div class="container">
 
-        <img src="assets/image/CreateanAccount.png" alt="create an account">
-        <!-- доробити -->
-        <form action="#" method="post" enctype="multipart/form-data">
+
+        <h1>Create an account</h1>
+
+        <form>
+
           <div class="name">
             <div class="first-name">
-              <label for="fname">First Name <br>
-                <input type="text" id="fname">
-                <span></span>
-              </label>
+              <label>First Name</label>
+              <input type="text" id="fname" name="fname">
             </div>
-            <div class="last-name">
-              <label for="lname">Last Name <br>
-                <input type="text" id="lname">
-                <span></span>
-              </label>
+            <div class="first-name">
+              <label>Last Name</label>
+              <input type="text" id="lname" name="lname">
             </div>
           </div>
+
           <div class="e-mail">
-            <label for="e_mail">E-mail <br>
-              <input type="email" id="e_mail">
-              <span></span>
-              <p> We'll never share your email with anyone else.</p>
-            </label>
+            <label>E-mail</label>
+            <input type="email" id="e_mail" name="e-mail">
+            <span> We'll never share your email with anyone else.</span>
           </div>
-          <input type="radio" id="radio-m">
+
+          <input type="radio" id="radio-m" name="gender">
           <label for="radio-m">
             <span class="checkradio"></span>
-            <span>Male</span>
+            <span class="male">Male</span>
           </label>
-          <input type="radio" id="radio-f">
+          <input type="radio" id="radio-f" name="gender">
           <label for="radio-f">
             <span class="checkradio"></span>
             <span>Female</span>
           </label>
+
           <div class="country_city">
             <div class="country">
-              <p>Country</p>
+              <label>Country</label><br>
               <select>
                 <option value="1">Select</option>
                 <option value="2">Italy</option>
@@ -60,22 +64,37 @@
                 <option value="5">Latvia</option>
                 <option value="6">Austria</option>
               </select>
-
             </div>
+
             <div class="city">
-              <p>City</p>
+              <label>City</label>
               <input type="text" id="city-name">
-              <label for="city-name">
-                <span></span>
-              </label>
             </div>
           </div>
 
+          <div>
+            <button>Sign Up</button>
+          </div>
+          <p>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of Use</a> and <a
+              href="">Privacy Policy</a></p>
         </form>
+
+
+        <hr class="line">
+
+
       </div>
     </section>
-
   </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <span>Have an account?</span>
+        <a href="#">Log In</a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

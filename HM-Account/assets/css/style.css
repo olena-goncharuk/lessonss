@@ -1,42 +1,236 @@
 *,
-::before
-::after {
+::before::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+*:focus {
+  outline: none;
+}
+
 .container {
   max-width: 500px;
-  margin: o auto;
+  margin: 0 auto;
 }
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C1C1C;
+}
+
+/* треба подивитись !!!!! */
+
+
 .name {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
 
-.fist-name input {
-  opacity: 0;
-  position: absolute;
-  
-}
-
-/* input[type="text"] { 
- display: none; 
-} */
-
-.first-name input+label span {
-width: 245px;
-height: 38px;
-border: 1px;
-border-color: black;
-margin-right: 16px;
-display: inline-block;
-text-align: center;
 
 }
+
+.first-name {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 20px;
+
+
+}
+
+.first-name:first-child {
+  padding-right: 6px;
+}
+
+.first-name:last-child {
+  padding-left: 6px;
+}
+
+.e-mail {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.email {
+  /* flex-grow: 1; */
+  width: 100%;
+  /* display: flex; */
+}
+
+
+.e-mail span {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #969696;
+  text-align: left;
+  margin: 7px 0 21px;
+}
+
+input {
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  padding: 8px 10px;
+  /* width: 100%; */
+  margin-top: 7px;
+  flex-grow: 1;
+}
+
+input:hover {
+  border-color: #67ade3;
+}
+
+input:focus {
+  border-color: #67ade3;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.checkradio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  margin-right: 8px;
+}
+
+input[type=radio]:checked+label .checkradio::before {
+  content: "";
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #FFFFFF;
+}
+
+
+input[type=radio]:checked+label .checkradio {
+  background-color: #007BFF;
+}
+
+.male {
+  margin-right: 21px;
+}
+
+input[type="radio"]+label {
+  display: inline-flex;
+  align-items: center;
+
+}
+
 .country_city {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  /* justify-content: space-between; */
 
+}
+
+.country,
+.city {
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column
+}
+
+.city {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+
+select {
+  padding: 7px 10px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+}
+
+select:hover {
+  border-color: #67ade3;
+}
+
+select:focus {
+  border-color: #67ade3;
+}
+
+button {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  padding: 8px 10px;
+  cursor: pointer;
+  width: 100%;
+  margin: 20px 0 22px;
+
+}
+
+form p:last-child {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 18px;
+  color: #969696;
+  text-align: center;
+  max-width: 380px;
+}
+
+[href] {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #007BFF;
+}
+
+footer [href] {
+  display: inline-block;
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #007BFF;
+}
+
+.line {
+  margin: 20px 0;
+  background: #E4E4E4;
+}
+
+footer [href] {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #007BFF;
+  margin-left: 20px;
+
+}
+
+.footer {
+  text-align: center;
 }
