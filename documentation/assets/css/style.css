@@ -1,0 +1,201 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+  background-color: white;
+  margin-top: 170px;
+}
+
+.watermark {
+  position: fixed;
+  top: 170px;
+  z-index: -1;
+  right: 0;
+}
+
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.container_wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+
+  background-color: white;
+  padding: 16px 0 86px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.content__side-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__left-group {
+  display: flex;
+}
+
+
+.header__language {
+  font-family: 'Tourney';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin-right: 50px;
+}
+
+.header__navigation,
+.header__link {
+  text-decoration: none;
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.header__navigation ul {
+  list-style: none;
+
+}
+
+.header__navigation li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* sidebar */
+.side-bar ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 170px;
+  
+}
+
+.side-bar__title {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  margin-bottom: 80px;
+  white-space: nowrap;
+}
+
+.side-bar li {
+  border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 10px;
+  margin-bottom: 70px;
+}
+
+/* content */
+
+.content {
+  margin-left: 48px;
+}
+
+article p {
+  margin-top: 40px;
+}
+
+.content__chapter {
+  padding-top: 70px;
+}
+
+.content__chapter:first-child {
+  padding-top: 0;
+}
+
+.chappter__title {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.chapter__suptitle {
+  font-size: 20px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.chapter__header {
+  vertical-align: top;
+  margin: 0 0 40px 0;
+  padding-top: 28px;
+  position: relative;
+}
+
+
+.chapter__header::before {
+  content: '';
+  width: 100px;
+  height: 8px;
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.selected-text {
+  background-color: #efeded;
+}
