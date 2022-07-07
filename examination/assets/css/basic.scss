@@ -1,0 +1,26 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 301px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
